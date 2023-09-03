@@ -1,0 +1,204 @@
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; 
+  background-color: rgba(240, 255, 255, 0.521);
+  padding: 10px 0;
+}
+
+nav a {
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+}
+
+nav #start{
+ margin-right: auto;
+}
+header h1{
+  margin-left: 30px;
+  font-size: 50px;
+}
+
+img{
+  width: 30%;
+ margin-right: 40px;
+  margin-left: 70px;
+}
+ 
+.about-section {
+  display: flex;
+  text-align: justify;
+  font-size: 30px;
+  color: rgba(65, 139, 143, 0.678);
+margin-left: 30px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  word-spacing: 7px;
+  
+}
+.skills{
+  margin-left: 30px;
+  display: flex;
+  margin-top: 60px;
+  padding: 10px;
+  font-size:20px ;
+  color: rgba(65, 139, 143, 0.678);
+ 
+
+
+}
+
+.skills h1{
+font-size: 50px;
+color: black;
+margin-top: -20px;
+margin-left: 20px;
+}
+.iconI {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.iconI i {
+  font-size: 70px; 
+  color: #101111a1; 
+  padding: 10px;
+  margin-right: 10px; 
+}
+
+.skills p{
+  font-size: larger;
+}
+
+.proficiency{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+padding: 10px;
+margin-left: 30px;
+
+}
+
+.proficiency img{
+  margin-left: auto;
+}
+.proficiency div{
+  font-size: 25px;
+}
+.proficiency h1{
+  font-size: 50px;
+}
+
+.proficiency div progress {
+  width: 500px;
+  height: 27px;
+  border: 3px solid #000; 
+ overflow: hidden;
+  border-radius: 10px;
+ 
+}
+
+.proficiency div progress::-webkit-progress-value {
+  background-color: #0e69ca; 
+  border-radius: 10px;
+}
+
+
+.main {
+  display: flex;
+  align-items: center;
+  
+}
+
+
+.projects h1{
+  font-size: 50px;
+  margin-left: 30px;
+  margin-top: 80px;
+}
+.project{
+  border: 1px solid;
+  padding: 10px;
+  margin : 30px;
+  width: 540px;
+
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  
+}
+
+.project h3 a {
+  text-decoration: none;
+  color: rgb(19, 26, 23);
+
+}
+.project h3 a:hover{
+  text-decoration:underline;
+  color: rgb(107, 115, 190);
+
+}
+
+
+.resume h1 {
+  margin-left: 30px;
+  margin-bottom: -10px;
+  font-size: 50px;
+
+}
+
+.resume p{
+  
+  margin-left: 30px;
+  font-size: large;
+  
+
+}
+.resume p a{
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+  padding: 3px;
+  text-decoration: none;
+  color: #000;
+}
+.resume p a:hover{
+  text-decoration: underline;
+  color:blueviolet;
+}
+
+.contact{
+  margin-left: 30px;
+  align-content: space-around;
+}
+.contact h1{
+  font-size: 50px;
+  margin-bottom: -10px;
+}
+.me{
+  font-weight: bold;
+  font-size: larger;
+
+}
+.p1{
+  color: rgb(74, 104, 104);
+}
+
+.iconr i{
+  font-size: 20px;
+  align-content: space-between;
+  padding-left: 10px;
+  color: rgb(0, 0, 0);
+
+}
+footer {
+  background-color: #333;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+footer p{
+  text-decoration: none;
+  
+ margin-left: 30px;
+  float: left;
+  color: white;
+}
